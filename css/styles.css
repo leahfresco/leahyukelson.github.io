@@ -5,7 +5,11 @@
 }
 
 .card-body {
-	background: white;
+	background-color: rgba(173, 188, 214, 0.6);
+}
+
+#prof {
+	border-radius: 50px;
 }
     
 .navbar {
