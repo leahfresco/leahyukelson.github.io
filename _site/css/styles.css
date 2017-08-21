@@ -3,18 +3,22 @@
     background: url("https://farm7.staticflickr.com/6229/7029408609_f894517c98_k.jpg")no-repeat center center;
     background-size: cover;
 }
+
+.card-body {
+	background: white;
+}
     
 .navbar {
     background-color: transparent;
 }
 
 .top-nav-collapse {
-    background-color: #4285F4;
+    background-color: #adbcd6;
 }
 
 @media only screen and (max-width: 768px) {
     .navbar {
-        background-color: #4285F4;
+        background-color: #adbcd6;
     }
 }
 
