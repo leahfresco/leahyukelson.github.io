@@ -26,6 +26,15 @@
     }
 }
 
+.navbar.scrolled {
+  background-color: rgba(173, 188, 214, 0.6) !important;
+  transition: background-color 200ms linear;
+}
+
+.navbar.scrolled .nav-link {
+  color: black;
+}
+
 .htmlcss-tech {
 	margin-left: 20px;
 }

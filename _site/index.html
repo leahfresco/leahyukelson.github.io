@@ -63,8 +63,8 @@
   <div class="container" id="about"><a name="about">
       <div class="row">
           <div class="col-md-12">
-              <h3 class="text-center content-heading"> About</h3>
-              <p align="justify">Leah studied business information systems at Cal Poly SLO with an emphasis in computer science. After graduation, she went to work at Macy’s.com doing search marketing; managing multi-million dollar budgets and making strategic marketing choices. While being on the business-facing side of advertising, she became more interested in how the technology works. She loved the logic problem solving aspect of her computer science classes at Cal Poly and decided to dive back into programming by self studying Python and then attending Hackbright Academy. When she’s not coding, she likes to do yoga, read and go to concerts.</p>
+              <h2 class="text-center content-heading"> About</h2>
+              <p align="justify">Recently graduated Hackbright Academy, an esteemed all-womens' software engineering program for full-stack web development. Before Hackbright, I was an experienced search marketer managing multi-million dollar a month budgets and making strategic marketing decisions for Macy's.com. My love for technology and solving difficult logic problems has brought me back to an interest in a career in engineering. Actively searching for opportunities in a full stack or back end developer role. </p>
           </div>
           <h4 class="col-md-12">Tech Stack:</h4>
             <div class="tech-stack">
@@ -129,11 +129,11 @@
             </div>
       </div>
   </a></div>
-
+  <br><br>
   <div class="container" id="projects"><a name="projects">
       <div class="row">
           <div class="col-md-12">
-              <h3 class="text-center content-heading"> Projects</h3>
+              <h2 class="text-center content-heading"> Projects</h2>
               <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner" role="listbox">
                   <div class="carousel-item active">
@@ -200,6 +200,17 @@
     
     ldclient.on('ready', render);
     ldclient.on('change', render);
+
+
+    // Navbar Script
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $(".navbar");
+        var $prof = $("#prof");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $prof.height());
+      });
+    });
+
   </script>
 </body>
 <footer>
