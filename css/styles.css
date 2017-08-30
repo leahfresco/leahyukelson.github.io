@@ -26,5 +26,40 @@
     }
 }
 
+.htmlcss-tech {
+	margin-left: 20px;
+}
+
+.sql-tech {
+	margin-left: 30px;
+}
+
+.jquery-tech {
+	margin-left: 15px;
+}
+
+.react-tech {
+	margin-left: 20px;
+}
+
+.bootstrap-tech {
+	margin-left: 25px; 
+}
+
+.chartjs-tech {
+	margin-left: 30px;
+}
+
+.postgres-tech {
+	margin-left: 30px;
+}
+
+.git-tech {
+	margin-left: 25px;
+}
+
+.tech-stack-img {
+	height: 100px;
+}
 
    
