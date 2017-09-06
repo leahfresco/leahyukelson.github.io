@@ -7,12 +7,9 @@
   <title>Leah Yukelson</title>
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
-  <!-- Your custom styles (optional) -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   <link href="css/styles.css" rel="stylesheet">
-  <script src="https://app.launchdarkly.com/snippet/ldclient.min.js"></script>
 </head>
 
 <body>
@@ -28,9 +25,6 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#projects">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
@@ -54,6 +48,8 @@
       <a href="https://www.linkedin.com/in/leahyukelson/" class="center-block btn-floating btn-large"><img src="/img/social/LinkedIn-color.svg"></img></a>
       <!--Resume-->
       <a href='/Leah-Resume.pdf' target="_blank"><img src="/img/social/Resume.png"></img></a>
+      <!--Email-->
+      <a href="mailto:leahyukelson@gmail.com" target="_top"><img class="email-icon" src="/img/social/email.png"></img></a>
       <!--Twitter-->
       <a href="https://twitter.com/LeahYuk" class="center-block btn-floating btn-large"><img src="/img/social/Twitter-color.svg"></img></a>
       </div>
@@ -65,7 +61,7 @@
   <div class="container" id="about"><a name="about">
       <div class="row">
           <div class="col-md-12">
-              <h2 class="text-center content-heading"> About</h2>
+              <h1 class="text-center content-heading"> About</h1>
               <p align="justify">Recently graduated Hackbright Academy, an esteemed all-womens' software engineering program for full-stack web development. Before Hackbright, I was an experienced search marketer managing multi-million dollar a month budgets and making strategic marketing decisions for Macy's.com. My love for technology and solving difficult logic problems has brought me back to an interest in a career in engineering. Actively searching for opportunities in a full stack or back end developer role. </p>
           </div>
           <h4 class="col-md-12">Tech Stack:</h4>
@@ -135,23 +131,32 @@
   <div class="container" id="projects"><a name="projects">
       <div class="row">
           <div class="col-md-12">
-              <h2 class="text-center content-heading"> Projects</h2>
+              <h1 class="text-center content-heading"> Projects</h1><br>
               <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner" role="listbox">
                   <div class="carousel-item active">
-                    <a href="https://github.com/leahyukelson/Night-Out"><img class="d-block img-fluid" src="/img/nightout2.JPG" alt="Night Out"></a>
-                    <div class="carousel-caption d-none d-md-block">
-                      <h3>Night Out</h3>
+                    <div class="d-none d-md-block">
+                      <h4 class="text-center">Night Out</h4>
+                      <a href="https://github.com/leahyukelson/Night-Out"><img class="d-block img-fluid" src="/img/nightout2.JPG" alt="Night Out"></a>
+                      <div class="project-desc text-center">
                       <p>A web application that allows a user to plan a night around a pre-planned event by combining the event with nearby restaurant or bar options using the Yelp API and sends an email itinerary to friends with SendGrid API.</p>
                       <a href="https://github.com/leahyukelson/Night-Out"><img class="link-icon" src="/img/link.JPG"> Github Code </a>
                       <a href="http://www.nightoutplans.com"><img class="link-icon" src="/img/web-link.JPG"> Deployed Page</a>
+                      </div>
                     </div>
                   </div>
-<!--                   <div class="carousel-item">
-                    <img class="d-block img-fluid" src="..." alt="Second slide">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h3>More Coming Soon!</h3>
-                  </div> -->
+
+                <div class="carousel-item">
+                    <div class="d-none d-md-block">
+                      <h4 class="text-center">FeedBackBack</h4>
+                      <a href="https://github.com/leahyukelson/feedbackback"><img class="d-block img-fluid" src="/img/feedbackback.JPG" alt="FeedBackBack"></a>
+                      <div class="project-desc text-center">
+                      <p>Full stack Javascript web application that allows users to login with Google OAuth, buy credits for email surveys using the Stripe API and send email surveys out using the SendGrid API.</p>
+                      <a href="https://github.com/leahyukelson/feedbackback"><img class="link-icon" src="/img/link.JPG"> Github Code </a>
+                      <a href="https://feedbackback.herokuapp.com"><img class="link-icon" src="/img/web-link.JPG"> Deployed Page</a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -166,43 +171,9 @@
           </div>
       </div>
   </a></div>
-
-  <div class="container" id="contact"><a name="contact">
-      <div class="row">
-          <div class="col-md-12">
-              <script type="text/javascript" src="https://form.jotform.us/jsform/72408107660149"></script>
-          </div>
-      </div>
-  </a></div>
   
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   <script>
-    // LaunchDarkly Script
-    var user = {
-      firstName: 'Bob',
-      lastName: 'Loblaw',
-      key: 'bob@example.com',
-      custom: {
-        groups: 'beta_testers'
-      }
-    };
-
-    var div = document.createElement('div');
-    document.body.appendChild(div);
-    
-    div.appendChild(document.createTextNode('Initializing...'));
-
-    var ldclient = LDClient.initialize('599dfa37ea613c0b13cbbefc', user);
-        
-    function render() {
-      var shouldShow = ldclient.variation('projects-section', false);
-      var label = (shouldShow ? 'Showing' : 'Not showing') + ' your feature to ' + user.key;
-      div.replaceChild(document.createTextNode(label), div.firstChild);
-    }
-    
-    ldclient.on('ready', render);
-    ldclient.on('change', render);
-
 
     // Navbar Script
     $(function () {
@@ -212,6 +183,9 @@
         $nav.toggleClass('scrolled', $(this).scrollTop() > $prof.height());
       });
     });
+
+    //Carousel Script
+    $('.carousel').carousel();
 
   </script>
 </body>
