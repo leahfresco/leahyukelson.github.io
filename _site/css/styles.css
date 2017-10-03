@@ -1,5 +1,10 @@
+// Overall
+
 h1 {
   font-family: "Pacifico", cursive;
+}
+
+body {
 }
 
 .view {
@@ -7,12 +12,15 @@ h1 {
   background-size: cover;
 }
 
-#prof {
-  border-radius: 50px;
+// Navigation
+
+.nav-link {
+  background-color: transparent;
 }
 
-.navbar {
-  background-color: transparent;
+.navlink {
+  color: #db8a74 !important;
+  font-weight: bold;
 }
 
 .top-nav-collapse {
@@ -26,52 +34,22 @@ h1 {
 }
 
 .navbar.scrolled {
-  background-color: rgba(173, 188, 214, 0.6) !important;
+  background-color: #444054 !important;
   transition: background-color 200ms linear;
 }
 
 .navbar.scrolled .nav-link {
-  color: black;
+  color: #fac9b8;
 }
 
-.htmlcss-tech {
-  margin-left: 20px;
+// Profile Card
+
+#prof {
+  border-radius: 50px;
 }
 
-.sql-tech {
-  margin-left: 30px;
-}
-
-.jquery-tech {
-  margin-left: 15px;
-}
-
-.react-tech {
-  margin-left: 20px;
-}
-
-.bootstrap-tech {
-  margin-left: 25px;
-}
-
-.chartjs-tech {
-  margin-left: 30px;
-}
-
-.postgres-tech {
-  margin-left: 30px;
-}
-
-.git-tech {
-  margin-left: 25px;
-}
-
-.tech-stack-img {
-  height: 100px;
-}
-
-.carousel-caption {
-  color: black;
+.card-body {
+  color: #3f2e56;
 }
 
 .link-icon {
@@ -80,6 +58,18 @@ h1 {
 
 .email-icon {
   height: 50px;
+}
+
+// About
+
+.about-block {
+  margin-top: 30px !important;
+}
+
+// Projects Carousel
+
+.carousel-caption {
+  color: black;
 }
 
 .carousel-control-prev-icon {
