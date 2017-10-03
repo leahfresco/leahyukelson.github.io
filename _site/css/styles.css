@@ -1,102 +1,97 @@
 h1 {
-	font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
 }
 
 .view {
-	background: url('https://farm7.staticflickr.com/6229/7029408609_f894517c98_k.jpg')no-repeat center center;
-	background-size: cover;
-}
-
-.card-body {
-	background-color: rgba(173, 188, 214, 0.6);
+  background: url("/img/cloudy-day.png")no-repeat center center;
+  background-size: cover;
 }
 
 #prof {
-	border-radius: 50px;
+  border-radius: 50px;
 }
 
 .navbar {
-	background-color: transparent;
+  background-color: transparent;
 }
 
 .top-nav-collapse {
-	background-color: #adbcd6;
+  background-color: #adbcd6;
 }
 
 @media only screen and (max-width: 768px) {
-	.navbar {
-		background-color: #adbcd6;
-	}
+  .navbar {
+    background-color: #adbcd6;
+  }
 }
 
 .navbar.scrolled {
-	background-color: rgba(173, 188, 214, 0.6) !important;
-	transition: background-color 200ms linear;
+  background-color: rgba(173, 188, 214, 0.6) !important;
+  transition: background-color 200ms linear;
 }
 
 .navbar.scrolled .nav-link {
-	color: black;
+  color: black;
 }
 
-
 .htmlcss-tech {
-	margin-left: 20px;
+  margin-left: 20px;
 }
 
 .sql-tech {
-	margin-left: 30px;
+  margin-left: 30px;
 }
 
 .jquery-tech {
-	margin-left: 15px;
+  margin-left: 15px;
 }
 
 .react-tech {
-	margin-left: 20px;
+  margin-left: 20px;
 }
 
 .bootstrap-tech {
-	margin-left: 25px;
+  margin-left: 25px;
 }
 
 .chartjs-tech {
-	margin-left: 30px;
+  margin-left: 30px;
 }
 
 .postgres-tech {
-	margin-left: 30px;
+  margin-left: 30px;
 }
 
 .git-tech {
-	margin-left: 25px;
+  margin-left: 25px;
 }
 
 .tech-stack-img {
-	height: 100px;
+  height: 100px;
 }
 
 .carousel-caption {
-	color: black;
+  color: black;
 }
 
 .link-icon {
-	height: 20px;
+  height: 20px;
 }
 
 .email-icon {
-	height: 50px;
+  height: 50px;
 }
 
 .carousel-control-prev-icon {
-	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#000' viewBox='0 0 8 8'%3E%3Cpath d='M4 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#000' viewBox='0 0 8 8'%3E%3Cpath d='M4 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
 
 .carousel-control-next-icon {
-	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#000' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#000' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev {
-	display:block;
+  display: block;
 }
